@@ -10,7 +10,7 @@
 
 	public function ReadVisita(){
 		try{
-			$result = $this->modelo->Listar("visita");
+			$result = $this->modelo->Listar("visitas");
 			return $result;
 		}catch(Exception $e){
 			die($e->getMessage());
